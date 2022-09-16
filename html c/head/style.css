@@ -1,0 +1,33 @@
+*{text-align: right;}
+
+body{background-color:hsl(160, 100%, 5%);
+background-size: cover;
+background-image: url(bcimage.jpg);}
+
+h2 + p:hover{color:rgb(58, 88, 27);
+border:5px solid; 
+border-color:crimson;
+text-align: center;
+cursor: pointer;}
+
+p{text-combine-upright: rgba(16, 247, 16,0.5);
+text-align: center;
+line-height: 50px;
+font-style: italic;
+font-weight: bold;
+font-size: 100%;
+font-family: monospace, 'Times New Roman';
+}
+
+li{list-style: none;
+display:inline-block}
+
+.work :last-child{color:aqua; 
+    border: 3px solid !important;
+    border-color: blanchedalmond;}
+
+    .active{color: red;}
+
+    #div1{background: blue;}
+    
+  #div2{background: rgb(21, 143, 102);}
