@@ -1,0 +1,203 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+header{
+    display: flex;
+    justify-content:space-between;
+    justify-items: center;
+	background-color: #1a1a1a;
+	color: #fff;
+	padding: 10px;
+
+}
+
+.sub{
+/* background: black; */
+background: url(images/img9.jpg);
+background-repeat: no-repeat;
+background-size: 100%;
+height: 700px;
+width: auto ;
+overflow: hidden;
+object-fit: cover;
+image-resolution: 100%;
+}
+
+.sub-sub{
+text-align: center ;
+font-size: 30px;
+color: antiquewhite;
+text-align: left;
+padding-top: 5%;
+}
+
+
+.logo{
+}
+
+.obj{
+
+}
+
+nav{
+    display: ;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content:right ;
+}
+
+/* Navigation Styles */
+nav ul li {
+    margin-right: 20px;
+    }
+    
+    nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    }
+
+    .hero{
+        display: grid;
+        column-gap: 20px;
+        row-gap: 20%;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto auto;
+        background-color: rgb(207, 191, 147);
+        padding: 10%;
+        margin-bottom: 10%;
+        height: 1100px;
+    }
+
+.hero-column{
+    border:black solid 1px;
+    border-radius: 5%;
+    padding: 20%;
+    text-align:center ;
+    height: 350px;
+}
+
+.mid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+    .block{
+        margin-top: 2%;
+    }
+
+    .box-model{
+        display: inline-block;
+        grid-template-columns: 1f 1fr;
+    }
+    
+    .plan{
+        justify-items: center;
+    }
+
+    body {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        line-height: 1.6;
+        color: #333;
+      }
+
+      h1, h2, h3 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+      }
+
+      .btn{
+          appearance: none;
+          background-color: #000000;
+          border-width: 0;
+          box-sizing: border-box;
+          color: #ffffff;
+          cursor: pointer;
+          display: inline-block;
+          font-family: Clarkson,Helvetica,sans-serif;
+          font-size: 14px;
+          font-weight: 500;
+          letter-spacing: 0;
+          line-height: 1em;
+          margin: 0;
+          opacity: 1;
+          outline: 0;
+          padding: 1.5em 2.2em;
+          position: relative;
+          text-align: center;
+          text-decoration: none;
+          text-rendering: geometricprecision;
+          text-transform: uppercase;
+          transition: opacity 300ms cubic-bezier(.694, 0, 0.335, 1),background-color 100ms cubic-bezier(.694, 0, 0.335, 1),color 100ms cubic-bezier(.694, 0, 0.335, 1);
+          user-select: none;
+          -webkit-user-select: none;
+          touch-action: manipulation;
+          vertical-align: baseline;
+          white-space: nowrap;
+        }
+        
+        .btn:before {
+          animation: opacityFallbackOut .5s step-end forwards;
+          backface-visibility: hidden;
+          background-color: #857171;
+          clip-path: polygon(-1% 0, 0 0, -25% 100%, -1% 100%);
+          content: "";
+          height: 100%;
+          left: 0;
+          position: absolute;
+          top: 0;
+          transform: translateZ(0);
+          transition: clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1), -webkit-clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1);
+          width: 100%;
+        }
+        
+        .btn:hover:before {
+          animation: opacityFallbackIn 0s step-start forwards;
+          clip-path: polygon(0 0, 101% 0, 101% 101%, 0 101%);
+        }
+        
+        .btn:after {
+          background-color: #FFFFFF;
+        }
+        
+        .btn span {
+          z-index: 1;
+          position: relative;
+        }
+
+        .butt{
+          display: flex;
+        }
+
+.but{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+}
+
+
+
+    footer{
+        background-image: url(images/img2.jpg);
+    }
+
+    /* .headerr{
+      height: 700px;
+      width: auto;
+      background: black;
+      overflow: hidden;
+      background: #c33764;
+      background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8), url(images/img2.jpg) );
+    }
+    
+    img {
+      object-fit: cover;
+      opacity: 0.3;
+    } */

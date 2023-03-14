@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BWEALTH</title>
+    <style>
+      /* Fonts */
+      @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+      @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+      /* Reset Styles */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      /* Global Styles */
+      body {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        line-height: 1.6;
+        color: #333;
+      }
+
+      h1, h2, h3 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+      }
+
+      a {
+        color: #333;
+        text-decoration: none;
+      }
+
+      /* Layout */
+      header {
+        background-color: #fff;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+
+      .hero {
+        height: 500px;
+        background-image: url('https://picsum.photos/id/1000/1200/500');
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .hero-text {
+        text-align: center;
+        color: #fff;
+      }
+
+      .hero-text h1 {
+        font-size: 5rem;
+        margin-bottom: 20px;
+      }
+
+      .hero-text p {
+        font-size: 1.5rem;
+        margin-bottom: 40px;
+      }
+
+      .services {
+        background-color: #f7f7f7;
+        padding: 80px 0;
+      }
+
+      .services-heading {
+        text-align: center;
+        margin-bottom: 60px;
+      }
+
+      .service {
+        text-align: center;
+      }
+
+      .service-icon {
+        font-size: 4rem;
+        margin-bottom: 20px;
+      }
+
+      .service-heading {
+        font-size: 2rem;
+        margin-bottom: 20px;
+      }
+
+      .service-text {
+        font-size: 1.2rem;
+        line-height: 1.6;
+        margin-bottom: 40px;
+      }
+
+      /* Media Queries */
+      @media only screen and (max-width: 767px) {
+        .hero {
+          height: 300px;
+        }
+
+        .hero-text h1 {
+          font-size: 3rem;
+        }
+
+        .hero-text p {
+          font-size: 1.2rem;
+        }
+
+        .services {
+          padding: 60px 0;
+        }
+
+        .service {
+          margin-bottom: 40px;
+        }
+      }
+    </style>
+  <!-- </head>
+  <body>
+    <header> -->
+      <div class="container">
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About Us
+            </li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-text">
+          <h1>Invest in Gold</h1>
+          <p>Secure your future with our reliable and trusted investment platform.</p>
+          <a href="#" class="button">Get Started</a>
+        </div>
+      </div>
+    </section>
+    <section class="services">
+      <div class="container">
+        <h2 class="services-heading">Our Services</h2>
+        <div class="service">
+          <i class="service-icon fas fa-shield-alt"></i>
+          <h3 class="service-heading">Secure Investments</h3>
+          <p class="service-text">Invest in gold with confidence knowing your investment is secure and protected.</p>
+          </div>
+          <div class="service">
+          <i class="service-icon fas fa-globe"></i>
+          <h3 class="service-heading">Global Reach</h3>
+          <p class="service-text">Our platform provides access to gold investments across the globe.</p>
+          </div>
+          <div class="service">
+          <i class="service-icon fas fa-chart-line"></i>
+          <h3 class="service-heading">Profitable Returns</h3>
+          <p class="service-text">Experience consistent and profitable returns with our gold investment platform.</p>
+        </div>
+        </div>
+        </section>
+
+
+        <style>
+    /* General styles */
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header styles */
+
+header {
+  background-color: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+header .logo {
+    font-size: 32px;
+  font-weight: bold;
+  color: #000;
+}
+
+header nav {
+  float: right;
+}
+
+header nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+header nav li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+header nav li a {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+header nav li a:hover {
+    color: #999;
+}
+
+/* Hero styles */
+
+.hero {
+  background-image: url("https://i.imgur.com/lV7MfM2.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  display: flex;
+  align-items: center;
+}
+
+.hero-text {
+  color: #fff;
+  max-width: 800px;
+}
+
+.hero-text h1 {
+  font-size: 64px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.hero-text p {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.button {
+    display: inline-block;
+    padding: 20px 40px;
+  background-color: #ffa500;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background-color: #ff8c00;
+}
+
+/* Services styles */
+
+.services {
+  background-color: #f8f8f8;
+  padding: 100px 0;
+}
+
+.services-heading {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.service {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.service-icon {
+  font-size: 64px;
+  margin-bottom: 40px;
+  color: #ffa500;
+}
+
+.service-heading {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.service-text {
+  font-size: 20px;
+  color: #666;
+}
+
+</style>   
